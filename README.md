@@ -17,6 +17,18 @@ Analyze Google Playstore app reviews and find their average sentiment score.
    - Number of Reviews Analyzed
 4. Frontend displays the results.
 
+## Example
+
+  Input: Instagram
+  Output: Average Sentiment Score: 0.45
+  Number of Reviews Analyzed: 100
+
+## Tech Stack
+
+  Frontend: React (TypeScript)
+  Backend: FastAPI (Python)
+  Sentiment Analysis: NLTK VADER
+
 ## Setup Instructions
 
 ### Backend
@@ -51,16 +63,3 @@ Analyze Google Playstore app reviews and find their average sentiment score.
 3. Start the development server:
   ```bash
   npm run dev
-
-
-## Example
-
-  Input: Instagram
-  Output: Average Sentiment Score: 0.45
-  Number of Reviews Analyzed: 100
-
-## Tech Stack
-
-  Frontend: React (TypeScript)
-  Backend: FastAPI (Python)
-  Sentiment Analysis: NLTK VADER
