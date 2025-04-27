@@ -19,15 +19,15 @@ Analyze Google Playstore app reviews and find their average sentiment score.
 
 ## Example
 
-  Input: Instagram
-  Output: Average Sentiment Score: 0.45
-  Number of Reviews Analyzed: 100
+1. Input: Instagram
+2. Output: Average Sentiment Score: 0.45
+3. Number of Reviews Analyzed: 100
 
 ## Tech Stack
 
-  Frontend: React (TypeScript)
-  Backend: FastAPI (Python)
-  Sentiment Analysis: NLTK VADER
+1. Frontend: React (TypeScript)
+2. Backend: FastAPI (Python)
+3. Sentiment Analysis: NLTK VADER
 
 ## Setup Instructions
 
