@@ -27,7 +27,11 @@ Analyze Google Playstore app reviews and find their average sentiment score.
 
 1. Frontend: React (TypeScript)
 2. Backend: FastAPI (Python)
-3. Sentiment Analysis: NLTK VADER
+3. Sentiment Analysis: TextBlob
+
+## Video Explanation Link :
+
+https://drive.google.com/file/d/1xjGgipll9e3-WU3MGBzi7AuofJ5zhS5z/view?usp=sharing
 
 ## Setup Instructions
 
@@ -35,18 +39,13 @@ Analyze Google Playstore app reviews and find their average sentiment score.
 
 1. Navigate to the backend folder:
    ```bash
-   cd backend/app
+   cd backend
    
 2. Install dependencies:
   ```bash
   pip install fastapi uvicorn nltk
 
-3. Download NLTK VADER Lexicon (if not already):
-  ```bash
-  import nltk
-  nltk.download('vader_lexicon')
-
-4. Run the backend server:
+3. Run the backend server:
   ```bash
   uvicorn main:app --reload
 
