@@ -43,7 +43,7 @@ https://drive.google.com/file/d/1xjGgipll9e3-WU3MGBzi7AuofJ5zhS5z/view?usp=shari
    
 2. Install dependencies:
   ```bash
-  pip install fastapi uvicorn nltk
+  pip install fastapi uvicorn
 
 3. Run the backend server:
   ```bash
